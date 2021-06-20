@@ -8,6 +8,7 @@ Android Studio의 App Links Assistant에서 쉽게  처리할 수 있다.
 2. 딥링크
 URI Scheme을 사용한 딥링크의 경우, manifest에 아래와 같은 형태로 정의한 이후에 사용할 수 있다.
 
+![그림1](https://user-images.githubusercontent.com/65906458/122680784-f58cbc80-d22b-11eb-810c-b9077de76eff.png)
 
 
 이후 액티비티에서 intent.dataString으로 가져와서 url을 파싱할 수 있음.
